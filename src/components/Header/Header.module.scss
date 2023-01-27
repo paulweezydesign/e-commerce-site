@@ -1,0 +1,20 @@
+.headerTitle {
+    font-size: 2em;
+  
+}
+.header {
+    width: 100vw;
+    background-color: blue;
+    color: white;
+    padding: .5em 0;
+  
+}
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: .5em;
+}
