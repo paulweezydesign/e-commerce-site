@@ -12,12 +12,13 @@ export default function Home() {
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
+  
       </Head>
       <Header  />
       <main>
       <Container className=''>
         <h1 className='text-3xl font-bold'>Hyper Bros. Trading Cards </h1>
-        <h2>Available Cards</h2>
+        <h2 className='text-xl  font-bold mt-4'>Available Cards</h2>
         <ul className={styles.products}>
         {products.map(product => {
           return (

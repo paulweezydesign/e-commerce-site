@@ -8,8 +8,10 @@
     "export": "next export"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.5",
     "autoprefixer": "^10.4.13",
     "cypress": "^10.0.3",
+    "graphql": "^16.6.0",
     "next": "^12.1.5",
     "postcss": "^8.4.21",
     "react": "^18.0.0",
